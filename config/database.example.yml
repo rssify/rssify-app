@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: rssify_development
+
+test:
+  <<: *default
+  database: rssify_test
+
+production:
+  <<: *default
+  database: rssify_production
+  username: rssify
+  password: <%= ENV['RSSIFY_DATABASE_PASSWORD'] %>
