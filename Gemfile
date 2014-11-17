@@ -20,6 +20,8 @@ gem 'keynote'
 
 gem 'slim-rails'
 
+gem 'vkontakte_api', '~> 1.4.2'
+
 # Use jQuery as the JavaScript library
 gem 'jquery-rails', '~> 4.0.0.beta2'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
