@@ -43,6 +43,7 @@ group :development, :test do
   gem 'spring'
 
   gem 'vcr'
+  gem 'webmock'
   gem 'rspec-rails'
   gem 'faker'
   gem 'shoulda-matchers'
