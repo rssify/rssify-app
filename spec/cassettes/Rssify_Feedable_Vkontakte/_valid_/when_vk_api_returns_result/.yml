@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api.vk.com/method/utils.resolveScreenName
+    body:
+      encoding: UTF-8
+      string: screen_name=durov&v=5.21
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Apache
+      Date:
+      - Fri, 21 Nov 2014 07:10:17 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '64'
+      Connection:
+      - keep-alive
+      X-Powered-By:
+      - PHP/3.9212
+      Set-Cookie:
+      - remixlang=0; expires=Mon, 16 Nov 2015 15:00:05 GMT; path=/; domain=.vk.com
+      Pragma:
+      - no-cache
+      Cache-Control:
+      - no-store
+    body:
+      encoding: UTF-8
+      string: '{"response":{"type":"user","object_id":1.000000}}'
+    http_version: 
+  recorded_at: Fri, 21 Nov 2014 07:10:17 GMT
+recorded_with: VCR 2.9.3
