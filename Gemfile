@@ -43,10 +43,13 @@ group :development, :test do
   gem 'spring'
 
   gem 'vcr'
-  gem 'webmock'
   gem 'rspec-rails'
   gem 'faker'
   gem 'shoulda-matchers'
   gem 'factory_girl_rails'
   gem 'rubocop', require: false
+end
+
+group :test do
+  gem 'webmock'
 end
