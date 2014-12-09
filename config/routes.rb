@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   root 'welcome#index'
 
-  resources :feeds, only: [:show, :create]
+  resources :feeds, only: :index
 end
