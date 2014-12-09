@@ -9,5 +9,5 @@ VkontakteApi.configure do |config|
   config.log_errors    = true
   config.log_responses = false
 
-  config.api_version = '5.21'
+  config.api_version = '5.27'
 end
