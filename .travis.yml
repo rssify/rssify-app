@@ -8,5 +8,4 @@ before_script:
   - cp config/database.example.yml config/database.yml
   - cp config/application.example.yml config/application.yml
   - bin/rake db:create db:migrate
-after_script:
   - bin/rake rubocop app spec lib
